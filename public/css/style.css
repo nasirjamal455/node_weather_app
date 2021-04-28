@@ -1,0 +1,39 @@
+body{
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main-content{
+    flex-grow: 1;
+}
+footer{
+    color: grey;
+    padding: 16px 0;
+    margin-top: 16px ;
+    border: 3px;
+    
+}
+h1{
+    font-size: 60px;
+}
+a{
+    text-decoration: none;
+    font-size: 26px;
+    margin: 16px ;
+    margin-left: 0px;
+    padding: 16px  0;
+
+}
+input{
+    border: 1px solid grey;
+    padding: 8px;
+    margin-top: 8px;
+}
+button{
+    background-color:darkgray;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid grey;
+}
