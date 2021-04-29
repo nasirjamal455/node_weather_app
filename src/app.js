@@ -5,6 +5,7 @@ const hbs = require('hbs')
 const forecast =require('./utils/forecast');
 const geocoding = require('./utils/geocoding');
 const app  = express();
+const port = process.env.PPORT || 3000
 
 
 //path for directories
@@ -96,6 +97,6 @@ app.get('', (req, res)=>{
             title:"404 page not found"
         })
     })
-app.listen(3000, ()=>{
-    console.log("server is up and running on port 3000")
+app.listen(port, ()=>{
+    console.log("server is up and running on port"+ port)
 })
